@@ -15,6 +15,6 @@ This is a real-time chat application built using Node.js, Express, and Socket.IO
 ## Screenshot of the App
 
   <div align="center">
-  <img src="https://github.com/alshweke/Simple-Chat-App/blob/main/public/Chat_app.png" alt="login"  style="width: 80%; margin: 30px;">
+  <img src="https://github.com/alshweke/Simple-Chat-App/blob/main/server/public/Chat_app.png" alt="login"  style="width: 80%; margin: 30px;">
   <p><em>The Chat App Interface</em></p>
   </div>
