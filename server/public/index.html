@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js" integrity="sha512-Xm9qbB6Pu06k3PUwPj785dyTl6oHxgsv9nHp7ej7nCpAqGZT3OZpsELuCYX05DdonFpTlBpXMOxjavIAIUwr0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer type="module" src="app.js"></script>
+</head>
+<body>
+    <main>
+        <div class="left-panel">
+            <form class="form-join">
+                <p>Enter Your name:</p>
+                <input type="text" id="name" maxlength="8" placeholder="Enter Your name" size="5" required>
+                
+                <i class="fas fa-comments"></i> <p>Chose a Room or Create new one:</p>
+                <select id="room" class="room-list"></select>
+                <button id="joinRoomBtn" type="button">Join</button>
+                <p id="error" style="color: red;"></p>
+                <input type="text" id="createRoom" placeholder="Create a new room" size="5" required>
+                <button id="createRoomBtn" type="button">Create</button>
+                
+            </form>
+            <div class="lists">
+                <i class="fas fa-users"></i>
+                
+                <ul class="user-list"></ul>
+            </div>
+        </div>
+        <div class="right-panel">
+            <ul class="chat-display"></ul>
+            <form class="form-msg">
+                <input type="text" id="message" placeholder="Your message" required>
+                <button type="submit"><i class="fas fa-paper-plane"></i>Send</button>
+                <p class="activity"></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
