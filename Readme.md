@@ -1,6 +1,6 @@
 # Real-time Chat Application
 
-This is a real-time chat application built using Node.js, Express, and Socket.IO. The application provides a real-time messaging where users can join existing chat room or create new ones.
+This is a real-time chat application built using Node.js, Express, and Socket.IO. The application provides real-time messaging where users can join existing chat room or create new ones.
 
 ## Features
 
@@ -12,7 +12,7 @@ This is a real-time chat application built using Node.js, Express, and Socket.IO
   
 - **Typing Indicator:** See when someone is typing a message.
 
-## Screenshot of the App
+## Screenshot of the app
 
   <div align="center">
   <img src="https://github.com/alshweke/Simple-Chat-App/blob/main/chat-app/public/Chat_app.png" alt="login"  style="width: 80%; margin: 30px;">
